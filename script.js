@@ -100,8 +100,7 @@
             <ul>
               <li><i class="fas fa-envelope"></i> <a href="mailto:mtkayraoffice@gmail.com">mtkayra@gmail.com</a></li>
               <li><i class="fab fa-github"></i> <a href="https://github.com/mtkayra" target="_blank" rel="noopener">github.com/mtkayra</a></li>
-              <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/company/mtkayra" target="_blank" rel="noopener">linkedin.com/company/mtkayra</a></li>
-              <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@mtkayra" target="_blank" rel="noopener">youtube.com/@mtkayra</a></li>
+              <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/company/mt-kayra/" target="_blank" rel="noopener">linkedin.com/company/mtkayra</a></li>
             </ul>
           </div>
         </div>
@@ -145,7 +144,8 @@
         </div>
         <div class="social__icons">
           <a href="https://github.com/mtkayra" class="icon" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/company/mt-kayra/" class="icon" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://linkedin.com/company/mtkayra" class="icon" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/@mtkayra" class="icon" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
       <form class="footer__form" id="contactForm" action="https://formspree.io/f/xgegplvk" method="POST">
