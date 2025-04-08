@@ -145,8 +145,7 @@
         </div>
         <div class="social__icons">
           <a href="https://github.com/mtkayra" class="icon" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://linkedin.com/company/mtkayra" class="icon" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://www.youtube.com/@mtkayra" class="icon" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/mt-kayra/" class="icon" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
       <form class="footer__form" id="contactForm" action="https://formspree.io/f/xgegplvk" method="POST">
