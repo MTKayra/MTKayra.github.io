@@ -9,11 +9,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>MT KAYRA - Savunma Teknolojileri</title>
-  
+
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -35,6 +35,7 @@
     <div class="video-background">
       <video autoplay muted loop id="background-video">
         <source src="arka_plan_videosu.webm" type="video/webm">
+        Tarayıcınız videoyu desteklemiyor.
       </video>
       <div class="video-overlay"></div>
     </div>
@@ -50,7 +51,7 @@
         </h2>
         <p>
           Teknofest 2025 kapsamında iki özgün proje geliştiriyoruz: Yapay Zekâ Destekli Hava Savunma Sistemi ve Otonom İnsansız Kara Aracı.
-          Milli teknolojilerle, geleceğin savunma sistemlerini bugünden inşa ediyoruz!
+          Milli teknolojilerle, geleceğin savunma sistemlerini bugümden inşa ediyoruz!
         </p>
         <div class="action__btns">
           <a href="#contact" class="btn">İletişime Geç</a>
@@ -71,25 +72,16 @@
         <h2 class="section__title">MT KAYRA</h2>
         <p class="section__subtitle">Savunma Teknolojilerinde Geleceği Şekillendiriyoruz!</p>
         <p class="about__details">
-            Atatürk Üniversitesi bünyesinde bir araya gelen genç mühendislerden oluşan MT KAYRA takımı olarak, Teknofest 2025'te iki özgün ve yenilikçi proje ile savunma teknolojileri alanında ülkemize katkı sağlamak için sahadayız. Takımımız, Yapay Zekâ Destekli Hava Savunma Sistemi ve Otonom İnsansız Kara Aracı projeleriyle, savunma teknolojilerinde devrim niteliğinde çözümler sunmayı hedefliyor. Her iki projemiz de kendi başına bağımsız çalışabilirken, hepsi ortak bir vizyona hizmet etmektedir: "Milli teknolojilerle, geleceğin savunma sistemlerini bugünden inşa etmek!"
-            
-            MT KAYRA takımı, yüksek mühendislik bilgisi ve yenilikçi fikirlerle hareket eden genç bir ekip olarak, yalnızca Teknofest'teki başarı hedefiyle değil, aynı zamanda ülkemizin teknolojik altyapısına kalıcı katkılar sağlamayı da amaçlamaktadır. Projelerimiz, sadece yarışma kapsamında değil, aynı zamanda savunma sanayimizin gücünü artıracak ve bağımsızlığımıza katkıda bulunacak sistemlerle donatılmıştır.
-            
-            Takımımız, yalnızca mühendislik bilgisiyle değil, aynı zamanda yaratıcı düşünme ve problem çözme becerisiyle de savunma teknolojilerinde yeni bir dönemin kapılarını aralamaktadır. Genç mühendisler olarak, her iki projede de dünya çapında rekabet edebilecek ve global savunma endüstrisinde iz bırakacak yenilikçi çözümler geliştirmeyi amaçlıyoruz.
-            
-            Geliştirdiğimiz projelerde, yapay zekâ, robotik sistemler, görüntü işleme, sensör teknolojileri ve veri analizi gibi alanlarda en son teknolojileri kullanarak, hem Türkiye'nin savunma sanayisinin gelişmesine katkı sağlıyor hem de geleceğin savunma teknolojilerini şekillendiriyoruz.
-            
-            MT KAYRA olarak, genç mühendislerin gücünden ilham alarak, ülkemizin savunma alanındaki bağımsızlık hedeflerine ulaşmasına katkı sağlamak için çalışmalarımıza hız kesmeden devam ediyoruz. Bu yolda attığımız her adım, sadece bugünümüzü değil, geleceğimizi de daha güvenli kılma amacını taşımaktadır.
+          Bizler, Atatürk Üniversitesi bünyesinde çalışmalarını sürdüren MT KAYRA takımı olarak, Teknofest 2025 kapsamında iki özgün proje ile sahadayız. Her iki projemiz bağımsız çalışsa da ortak bir vizyonu paylaşır: "Milli teknolojilerle, geleceğin savunma sistemlerini bugümden inşa etmek!" Biz MT KAYRA olarak, genç mühendisler olarak geliştirdiğimiz bu sistemlerle yalnızca yarışmaya değil, ülkemizin teknolojik geleceğine de katkı sunmayı amaçlıyoruz.
         </p>
         <div class="team__info">
           <div class="team__section">
             <h3>Takım Üyeleri</h3>
             <ul>
-              <li><i class="fas fa-user"></i> Takım Lideri:Özal Kömürcü</li>
-              <li><i class="fas fa-user"></i> Aviyonik Lider:Muhammed Durmuş</li>
-              <li><i class="fas fa-microchip"></i> Yazılım Ekibi:Muhammed Durmuş, Dilan Oltan, Samet Furkan Unlukaya, Hatice Kübra Demirci  ,Miraç Korkmaz, Berfin Çiftçi, Bengisu Kara</li>
-              <li><i class="fas fa-user"></i> Elektronik Ekibi: Çağatay Tor, Ceren Aydın</li>
-              <li><i class="fas fa-robot"></i> Mekanik Ekibi: Özal Kömürcü ,İbrahim Akpınar</li>
+              <li><i class="fas fa-user"></i> Takım Lideri: [İsim Soyisim]</li>
+              <li><i class="fas fa-microchip"></i> Yazılım Ekibi: [İsim Soyisim], [İsim Soyisim]</li>
+              <li><i class="fas fa-robot"></i> Mekanik Ekibi: [İsim Soyisim], [İsim Soyisim]</li>
+              <li><i class="fas fa-brain"></i> Yapay Zeka Ekibi: [İsim Soyisim], [İsim Soyisim]</li>
             </ul>
           </div>
           <div class="team__section">
@@ -106,9 +98,10 @@
           <div class="skills__section">
             <h3>İletişim</h3>
             <ul>
-              <li><i class="fas fa-envelope"></i> <a href="mailto:mtkayraoffice@gmail.com">mtkayraoffice@gmail.com</a></li>
-              <li><i class="fab fa-github"></i> <a href="https://github.com/MTKayra" target="_blank" rel="noopener">github.com/mtkayra</a></li>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:mtkayraoffice@gmail.com">mtkayra@gmail.com</a></li>
+              <li><i class="fab fa-github"></i> <a href="https://github.com/mtkayra" target="_blank" rel="noopener">github.com/mtkayra</a></li>
               <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/company/mtkayra" target="_blank" rel="noopener">linkedin.com/company/mtkayra</a></li>
+              <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@mtkayra" target="_blank" rel="noopener">youtube.com/@mtkayra</a></li>
             </ul>
           </div>
         </div>
@@ -125,22 +118,14 @@
           <img src="./hava_savunma_sistemi_görsel.jpg" alt="Yapay Zekâ Destekli Hava Savunma Sistemi" loading="lazy">
           <div class="project__content">
             <h3>Yapay Zekâ Destekli Hava Savunma Sistemi</h3>
-            <p>Yapay Zekâ Destekli Hava Savunma Sistemi, gerçek zamanlı görüntü işleme teknolojileriyle çalışan, çevresel tehditleri hızlı ve doğru bir şekilde analiz edebilen otonom bir savunma çözümüdür. Renk tanıma algoritmaları sayesinde hedefin dost mu düşman mı olduğunu belirleyebilen sistem, nesne takibi yaparak düşman hedefleri sürekli izlemekte ve pozisyon bilgisini analiz etmektedir.
-
-                Geliştirilen yapay zekâ altyapısı; görüntüden veri çıkarımı, karar verme mekanizmaları ve sınıflandırma süreçlerinde aktif rol oynamaktadır. Servo motorlarla desteklenen hareketli mekanizması sayesinde sistem, tespit edilen hedefe yönelerek otomatik olarak konum alabilir ve gerekli müdahale refleksini sergileyebilir.
-                
-                Tüm bu yapılar; hızlı, kararlı ve otonom çalışan bir hava savunma altyapısı oluştururken, düşük gecikmeli işlem gücüyle yüksek doğrulukta hedefleme ve yönlenme kapasitesine sahiptir. Proje, savunma teknolojilerinde yerli ve akıllı çözümler üretme vizyonuyla geliştirilmiştir.</p>
+            <p>Gerçek zamanlı görüntü işleme, renk tanıma, hedef takibi ve dost-düşman ayrımı gibi gelişmiş algoritmalarla çalışan, servo motor destekli yapısı sayesinde hedefe yönelerek etkili bir savunma refleksi geliştiren sistem.</p>
           </div>
         </div>
         <div class="project__card">
           <img src="./insansız_kara_aracı_görsel.jpg" alt="Otonom İnsansız Kara Aracı" loading="lazy">
           <div class="project__content">
             <h3>Otonom İnsansız Kara Aracı</h3>
-            <p>Otonom İnsansız Kara Aracı, zorlu arazi şartlarında etkin bir şekilde hareket edebilen, gelişmiş sensörler ve yapay zekâ teknolojileriyle donatılmış bir platformdur. Engel algılama teknolojisi sayesinde çevresindeki tüm engelleri hızla tespit edebilir, bu engelleri aşmak için uygun manevralar yaparak güvenli bir şekilde ilerler.
-
-                Aracın rota planlama algoritmaları, sensör verilerini kullanarak en verimli ve güvenli rotayı hesaplar, böylece engelleri ve araziyi analiz ederek sürekli olarak en iyi yolu seçer. Aracın otonom hareket yeteneği, çevresel değişikliklere hızlıca uyum sağlama kabiliyetiyle desteklenir ve bu sayede her türlü arazide etkili bir şekilde görev yapabilir.
-                
-                Yapay zekâ destekli karar mekanizmaları, aracın çevresindeki dinamik verileri anlık olarak analiz eder, ve mevcut koşullara göre araç için en uygun aksiyonları alır. Bu, araca sadece engelleri geçme değil, aynı zamanda çevresindeki değişkenlere tepki verme yeteneği kazandırır.</p>
+            <p>Zorlu arazi şartlarına uyum sağlayabilen, engel algılama, rota planlama, otonom hareket, uzaktan kontrol, sensör veri analizi ve yapay zekâ destekli karar mekanizmalarını içeren araç.</p>
           </div>
         </div>
       </div>
@@ -150,8 +135,8 @@
   <footer id="contact">
     <div class="section__container footer__container">
       <div class="footer__content">
-        <h2 class="section__title">Sponsorluk İçin İletişime <span>Geç!</span></h2>
-        <p class="section__subtitle">Projelerimiz hakkında bilgi almak ve Sponsorluk için bizimle iletişime geçebilirsiniz</p>
+        <h2 class="section__title">İletişime <span>Geç!</span></h2>
+        <p class="section__subtitle">Projelerimiz hakkında bilgi almak için bizimle iletişime geçebilirsiniz</p>
         <div class="footer__details">
           <p>
             Bizimle iletişime geçmek için aşağıdaki formu kullanabilir veya
@@ -161,9 +146,10 @@
         <div class="social__icons">
           <a href="https://github.com/mtkayra" class="icon" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
           <a href="https://linkedin.com/company/mtkayra" class="icon" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/@mtkayra" class="icon" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-      <form class="footer__form" id="contactForm" action="https://formspree.io/f/xkgjpadj" method="POST">
+      <form class="footer__form" id="contactForm" action="https://formspree.io/f/xgegplvk" method="POST">
         <input type="text" name="name" placeholder="Adınız" required>
         <input type="email" name="email" placeholder="E-posta Adresiniz" required>
         <textarea cols="30" rows="10" name="message" placeholder="Mesajınız" required></textarea>
@@ -174,11 +160,13 @@
 
   <script>
     // AOS başlatma
-    AOS.init({
-      duration: 800,
-      offset: 120,
-      once: false
+    document.addEventListener("DOMContentLoaded", function () {
+      AOS.init({
+        duration: 800,
+        offset: 120,
+        once: false
+      });
     });
   </script>
 </body>
-</html> 
+</html>
