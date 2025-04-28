@@ -1,0 +1,359 @@
+/* Temel Stiller */
+:root {
+    --primary-color: #f2480b;
+    --dark-color: #090c10;
+    --light-color: #ffffff;
+    --gray-color: #666666;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    line-height: 1.6;
+  }
+  
+  /* Navigasyon */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(9, 12, 16, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+  }
+  
+  .nav__logo a {
+    color: var(--light-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav__logo span {
+    color: var(--primary-color);
+  }
+  
+  .nav__links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav__link {
+    color: var(--light-color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav__link:hover {
+    color: var(--primary-color);
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--light-color);
+    margin: 5px 0;
+    transition: 0.3s;
+  }
+  
+  /* Header */
+  header {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(9, 12, 16, 0.7), rgba(9, 12, 16, 0.65));
+    opacity: 0.85;
+  }
+  
+  .header__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+  }
+  
+  .header__content {
+    max-width: 600px;
+  }
+  
+  .header__content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header__content h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .header__content p {
+    margin-bottom: 2rem;
+  }
+  
+  /* Butonlar */
+  .btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #d13d09;
+  }
+  
+  .action__btns {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .video {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--light-color);
+    text-decoration: none;
+  }
+  
+  .video__icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Bölümler */
+  section {
+    padding: 5rem 5%;
+  }
+  
+  .section__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section__title span {
+    color: var(--primary-color);
+  }
+  
+  .section__subtitle {
+    color: var(--gray-color);
+    margin-bottom: 2rem;
+  }
+  
+  /* Projeler */
+  .project__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project__card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .project__card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project__card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project__content {
+    padding: 1.5rem;
+  }
+  
+  .project__content h3 {
+    margin-bottom: 1rem;
+  }
+  
+  /* İletişim Formu */
+  .footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  
+  .footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .footer__form input,
+  .footer__form textarea {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+    border-radius: 5px;
+    color: var(--light-color);
+  }
+  
+  .footer__form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .social__icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .social__icons a {
+    color: var(--light-color);
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social__icons a:hover {
+    color: var(--primary-color);
+  }
+  
+  /* Mobil Uyumluluk */
+  @media (max-width: 768px) {
+    .nav__links {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .header__content h1 {
+      font-size: 3rem;
+    }
+  
+    .header__content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .footer__container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Animasyonlar */
+  [data-aos] {
+    opacity: 0;
+    transition-property: transform, opacity;
+  }
+  
+  [data-aos].aos-animate {
+    opacity: 1;
+  }
+  
+  .about__details {
+    margin-bottom: 2rem;
+    color: var(--gray-color);
+  }
+  
+  .team__info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .team__section {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team__section:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team__section h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .team__section ul {
+    list-style: none;
+  }
+  
+  .team__section li {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .team__section i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  } 
